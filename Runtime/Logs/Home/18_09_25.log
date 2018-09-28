@@ -1,0 +1,2922 @@
+[ 2018-09-25T09:08:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0320s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:08:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0160s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0340s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0230s ]
+
+[ 2018-09-25T09:08:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0060s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:09:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:09:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0060s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:09:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0300s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:09:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:09:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:09:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:18:44+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0160s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:18:44+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0230s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:18:44+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0160s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:18:44+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:18:44+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0170s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:18:44+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 162 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = null AND `jobinten` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:22:05+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = '旧顶科技有限公司' AND `jobinten` = '厨师' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:30:20+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 224 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 227 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 229 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 230 行.
+NOTIC: [8] Undefined index: jobtitle E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 231 行.
+NOTIC: [8] Undefined index: pay E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 232 行.
+NOTIC: [8] Undefined index: requirement E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 233 行.
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 234 行.
+NOTIC: [8] Undefined index: years E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 235 行.
+NOTIC: [8] Undefined index: jobfield E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 236 行.
+NOTIC: [8] Undefined index: site E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 237 行.
+NOTIC: [8] Undefined index: mobile E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 238 行.
+NOTIC: [8] Undefined index: describe E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 239 行.
+NOTIC: [8] Undefined index: fulltime E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 240 行.
+
+[ 2018-09-25T09:30:20+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 227 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543887020' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:30:24+08:00 ] 127.0.0.1 /index.php?s=/Home/job/index&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:30:25+08:00 ] 127.0.0.1 /index.php?s=/Home/job/index&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:30:30+08:00 ] 127.0.0.1 /index.php?s=/home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:30:30+08:00 ] 127.0.0.1 /index.php?s=/home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:30:31+08:00 ] 127.0.0.1 /index.php?s=/home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:30:31+08:00 ] 127.0.0.1 /index.php?s=/home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:30:32+08:00 ] 127.0.0.1 /index.php?s=/home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:30:32+08:00 ] 127.0.0.1 /index.php?s=/home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:30:37+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/found&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0420s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year`,`mobile` FROM `app_resume`  [ RunTime:0.0060s ]
+
+[ 2018-09-25T09:30:37+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/found&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year`,`mobile` FROM `app_resume`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:38:47+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 224 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 227 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 229 行.
+NOTIC: [8] Undefined index: jobtitle E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 231 行.
+NOTIC: [8] Undefined index: requirement E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 233 行.
+
+[ 2018-09-25T09:39:26+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 224 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 227 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 229 行.
+NOTIC: [8] Undefined index: jobtitle E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 231 行.
+NOTIC: [8] Undefined index: requirement E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 233 行.
+
+[ 2018-09-25T09:40:00+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:00+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '计算机/互联网/通信'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:40:04+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '厨师/餐饮'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:40:06+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:40:06+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '普工/技工'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:40:09+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '财务/审计/统计'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:11+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '厨师/餐饮'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:14+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 66 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:14+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '绿春县'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:16+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '0'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:17+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '个旧市'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:40:19+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '弥勒县'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:21+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:21+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '0'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:22+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 66 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:40:22+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '个旧市'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:40:24+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '河口瑶族自治县'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:45:00+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 224 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 227 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: jobtitle E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 231 行.
+
+[ 2018-09-25T09:47:07+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 224 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 227 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 234 行.
+
+[ 2018-09-25T09:56:11+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 229 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 236 行.
+
+[ 2018-09-25T09:56:56+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 229 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `app_company` (`title`,`jobinten`,`jobtitle`,`pay`,`requirement`,`companyname`,`years`,`jobfield`,`site`,`mobile`,`describe`,`fulltime`) VALUES ('10','110','10','10','100','121212','0','1577777777777','1','1','什么什么什么是11','1') [ RunTime:0.0010s ]
+
+[ 2018-09-25T09:57:13+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 229 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `app_company` (`title`,`jobinten`,`jobtitle`,`pay`,`requirement`,`companyname`,`years`,`jobfield`,`site`,`mobile`,`describe`,`fulltime`) VALUES ('10','110','10','10','100','121212','0','1577777777777','1','1','什么什么什么是11','1') [ RunTime:0.0000s ]
+
+[ 2018-09-25T09:58:12+08:00 ] 127.0.0.1 /index.php?s=/Home/human/posits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 225 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `app_company` (`title`,`jobinten`,`jobtitle`,`pay`,`requirement`,`companyname`,`years`,`jobfield`,`site`,`mobile`,`describe`,`fulltime`) VALUES ('10','110','10','10','100','121212','0','1577777777777','1','1','什么什么什么是11','1') [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:33:55+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 162 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = null AND `jobinten` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:33:56+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = '旧顶科技有限公司' AND `jobinten` = '厨师' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:34:25+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 162 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = null AND `jobinten` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:34:25+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = '旧顶科技有限公司' AND `jobinten` = '厨师' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:46:16+08:00 ] 127.0.0.1 /index.php?s=/Home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:46:17+08:00 ] 127.0.0.1 /index.php?s=/Home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%艾欧尼亚%'  [ RunTime:0.0010s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` LIKE '%艾欧尼亚%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:46:24+08:00 ] 127.0.0.1 /index.php?s=/Home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: keyword E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:46:24+08:00 ] 127.0.0.1 /index.php?s=/Home/job/company&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `companyname` LIKE '%暴走萝莉%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:46:29+08:00 ] 127.0.0.1 /index.php?s=/Home/index/fulltime&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: fulltime E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 145 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `fulltime` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:46:29+08:00 ] 127.0.0.1 /index.php?s=/Home/index/fulltime&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `fulltime` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:46:32+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: companyname E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 162 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = null AND `jobinten` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:46:32+08:00 ] 127.0.0.1 /index.php?s=/Home/job/details&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_company` WHERE `companyname` = '暴走萝莉' AND `jobinten` = '教师' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:05+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: jobfield E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 60 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:05+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = '绿春县'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:08+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = '弥勒县'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:10+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 89 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:10+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '销售/客服'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:11+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '家政保洁/安保'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:47:15+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 89 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:15+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '广告/教育'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:47:18+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '编辑/出版/印刷'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:22+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 89 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:47:22+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '司机/交通'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:47:29+08:00 ] 127.0.0.1 /index.php?s=/Home/index/famous&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:29+08:00 ] 127.0.0.1 /index.php?s=/Home/index/famous&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:47:36+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: jobfield E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 60 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:47:36+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = '弥勒县'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:37+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 89 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:37+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '家政保洁/安保'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:47:42+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '财务/审计/统计'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:48:09+08:00 ] 127.0.0.1 /index.php?s=/Home/job/civilians&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_convenient` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`content` FROM `app_convenient` WHERE ( status=1 )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:48:09+08:00 ] 127.0.0.1 /index.php?s=/Home/job/civilians&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_convenient` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`content` FROM `app_convenient` WHERE ( status=1 )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:48:09+08:00 ] 127.0.0.1 /index.php?s=/Home/job/cards&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_card` [ RunTime:0.0240s ]
+SQL: SELECT `category` FROM `app_card`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:48:10+08:00 ] 127.0.0.1 /index.php?s=/Home/job/cards&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_card` [ RunTime:0.0040s ]
+SQL: SELECT `category` FROM `app_card`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:49:04+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 105 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:04+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = '厨师'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:06+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0060s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = '程序员'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:49:09+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = '技术员'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:11+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 105 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:11+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = '关公'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:49:19+08:00 ] 127.0.0.1 /index.php?s=/Home/job/index&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0060s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:20+08:00 ] 127.0.0.1 /index.php?s=/Home/job/index&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:25+08:00 ] 127.0.0.1 /index.php?s=/Home/job/index&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:25+08:00 ] 127.0.0.1 /index.php?s=/Home/job/index&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:49:39+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 395 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:49:39+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891779' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:50:20+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:50:20+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `title` = '销售/客服'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:24+08:00 ] 127.0.0.1 /index.php?s=/Home/human/mine&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 177 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 180 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:24+08:00 ] 127.0.0.1 /index.php?s=/Home/human/mine&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 180 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891884' WHERE `mobile` = '15362222222' [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_resume` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:26+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:27+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:31+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 105 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:31+08:00 ] 127.0.0.1 /index.php?s=/home/job/wor&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobinten` = '110'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:36+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 395 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:36+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0050s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891896' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:38+08:00 ] 127.0.0.1 /index.php?s=/Home/index/query&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php on line 34 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:38+08:00 ] 127.0.0.1 /index.php?s=/Home/index/query&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php on line 34 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891898' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:42+08:00 ] 127.0.0.1 /index.php?s=/home/index/people&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 73 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php on line 76 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:42+08:00 ] 127.0.0.1 /index.php?s=/home/index/people&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php on line 76 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891902' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: age E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: UPDATE `app_personal` SET `name`='pushoadogn',`gender`='女',`birthday`='199510151518',`education`='gaozhong',`major`='dax ',`worktime`='1222222',`email`='352222222222222',`age`=NULL,`card`='532724199510151518' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:46+08:00 ] 127.0.0.1 /index.php?s=/Home/index/query&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php on line 34 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:46+08:00 ] 127.0.0.1 /index.php?s=/Home/index/query&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php on line 34 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891906' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:54+08:00 ] 127.0.0.1 /index.php?s=/Home/human/mine&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 177 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 180 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:51:54+08:00 ] 127.0.0.1 /index.php?s=/Home/human/mine&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 180 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891914' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_resume` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:58+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php 第 395 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 48 行.
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-25T10:51:58+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891918' WHERE `mobile` = '15362222222' [ RunTime:0.0010s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T10:52:00+08:00 ] 127.0.0.1 /index.php?s=/Home/human/sett&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\HomeController::checktokens(), called in E:\resume_app_background\resume_app_background\Application\Home\Controller\HumanController.class.php on line 401 and defined E:\resume_app_background\resume_app_background\Application\Home\Controller\HomeController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `app_personal` [ RunTime:0.0040s ]
+SQL: SELECT `ctime` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `app_personal` SET `ctime`='1543891920' WHERE `mobile` = '15362222222' [ RunTime:0.0000s ]
+SQL: SELECT `email`,`mobile` FROM `app_personal` WHERE `mobile` = '15362222222' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:16:15+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:16:15+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:16:38+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:16:38+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/human/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/human/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/human/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:17:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/index/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:18:23+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '盘龙区'  [ RunTime:0.0000s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `picture` = null AND `name` = '杨洋' AND `gender` = '男' AND `age` = '20' AND `education` = '硕士' AND `worktime` = '0' AND `region` = '盘龙区' AND `jobinten` = '销售' AND `year` = '1' )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:19:06+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '盘龙区'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:27:47+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '盘龙区'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:28:37+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '盘龙区'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:28:38+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '盘龙区'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:29:03+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+ERR: 1054:Unknown column 'ArrayArray' in 'where clause'
+ [ SQL语句 ] : SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE ( ArrayArray ) 
+ERR: 1054:Unknown column 'ArrayArray' in 'where clause'
+ [ SQL语句 ] : SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE ( ArrayArray ) 
+
+[ 2018-09-25T11:35:22+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\resume_app_background\resume_app_background\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:35:49+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\resume_app_background\resume_app_background\ThinkPHP\Library\Think\Db\Driver.class.php 第 553 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:43:01+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = '盘龙区' ) AND (  `jobinten` = '销售' )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:43:56+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = '盘龙区' ) AND (  `jobinten` = '保姆' )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:44:59+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 66 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:44:59+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '个旧市'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:01+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = null ) AND (  `jobinten` = null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:01+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = null ) AND (  `jobinten` = null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:06+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: jobfield E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 60 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:06+08:00 ] 127.0.0.1 /index.php?s=/Home/job/place&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `jobfield` = '个旧市'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:10+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: title E:\resume_app_background\resume_app_background\Application\Home\Controller\JobController.class.php 第 89 行.
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:45:10+08:00 ] 127.0.0.1 /index.php?s=/Home/job/work&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE `title` = '人事/行政/后勤'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:15+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 66 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:45:15+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '开远市'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:45:23+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 66 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:23+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '弥勒县'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:25+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = null ) AND (  `jobinten` = null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:25+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = null ) AND (  `jobinten` = null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:45:26+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = null ) AND (  `jobinten` = null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:45:29+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/job&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 95 行.
+NOTIC: [8] Undefined index: jobinten E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 96 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE (  `region` = null ) AND (  `jobinten` = null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:45:31+08:00 ] 127.0.0.1 /index.php?s=/home/tofyr/find&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: keyword E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `jobinten` LIKE '%%'  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:45:31+08:00 ] 127.0.0.1 /index.php?s=/home/tofyr/find&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `jobinten` LIKE '%%'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:59:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:59:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0030s ]
+
+[ 2018-09-25T11:59:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:59:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0030s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:59:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0100s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:59:15+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:59:41+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/found&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0060s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year`,`mobile` FROM `app_resume`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:59:41+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/found&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year`,`mobile` FROM `app_resume`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T11:59:46+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: region E:\resume_app_background\resume_app_background\Application\Home\Controller\TofyrController.class.php 第 66 行.
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = null  [ RunTime:0.0010s ]
+
+[ 2018-09-25T11:59:46+08:00 ] 127.0.0.1 /index.php?s=/Home/tofyr/reg&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_resume` [ RunTime:0.0040s ]
+SQL: SELECT `picture`,`name`,`gender`,`age`,`education`,`worktime`,`region`,`jobinten`,`year` FROM `app_resume` WHERE `region` = '个旧市'  [ RunTime:0.0010s ]
+
+[ 2018-09-25T16:52:59+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.1260s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0560s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0070s ]
+
+[ 2018-09-25T16:52:59+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.1240s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0670s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0020s ]
+
+[ 2018-09-25T16:52:59+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0470s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T16:52:59+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0010s ]
+
+[ 2018-09-25T16:52:59+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0050s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2018-09-25T16:52:59+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-25T17:29:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0320s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0010s ]
+
+[ 2018-09-25T17:29:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.025002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0310s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0450s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0150s ]
+
+ jobinten is not null ) LIMIT 10   [ RunTime:0.0130s ]
+
+[ 2018-09-25T17:29:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `app_company` WHERE ( jobinten is not null ) LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2018-09-25T17:29:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0000s ]
+SQL: SELECT `jobinten` FROM `app_company` WHERE ( jobinten is not null )  [ RunTime:0.0000s ]
+
+[ 2018-09-25T17:29:14+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0000s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `app_notice` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `app_notice`  [ RunTime:0.0000s ]
+

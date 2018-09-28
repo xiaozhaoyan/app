@@ -1,0 +1,423 @@
+[ 2018-09-12T22:39:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index/pid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+
+[ 2018-09-12T22:39:44+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022005s ]
+
+[ 2018-09-12T22:39:44+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001698s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2018-09-12T22:39:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index/pid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001877s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+
+[ 2018-09-12T22:39:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2018-09-12T22:39:52+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005937s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0409s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`gender`,`mobile`,`education`,`major`,`workyear`,`email` FROM `app_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `app_action` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `app_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `app_action_log` [ RunTime:0.0414s ]
+SQL: INSERT INTO `app_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('1','1','2130706433','member','1','1536763192','Administrator在2018-09-12 22:39登录了后台') [ RunTime:0.0047s ]
+SQL: SELECT * FROM `app_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\APP\resume_app_background\Application\Common\Common\function.php 第 679 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given E:\APP\resume_app_background\Application\Common\Common\function.php 第 679 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_action_log` WHERE `action_id` = 1 AND `user_id` = 1 AND `create_time` > 1536676792 LIMIT 1   [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0094s ]
+SQL: UPDATE `app_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.0002s ]
+SQL: UPDATE `app_member` SET `login`=`login`+1,`last_login_time`='1536763192',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0002s ]
+
+[ 2018-09-12T22:39:58+08:00 ] 127.0.0.1 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001574s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `app_menu` [ RunTime:0.0193s ]
+SQL: SELECT `id`,`title`,`url` FROM `app_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0019s ]
+SQL: SELECT `pid` FROM `app_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `app_addons` [ RunTime:0.0574s ]
+SQL: SELECT `config` FROM `app_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `app_member` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_member` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_action_log` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_action_log` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `app_document` [ RunTime:0.0224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_document` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `app_category` [ RunTime:0.0423s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_category` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.0199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_model` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.207531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.194494s ]
+SQL: SELECT `config` FROM `app_addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-5.408628s ]
+SQL: select version() as v; [ RunTime:0.0206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025060s ]
+INFO: [ view_parse ] --END-- [ RunTime:-5.197374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-5.221949s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:5.221970s ]
+SQL: SELECT `config` FROM `app_addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-5.448968s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002750s ]
+INFO: [ view_parse ] --END-- [ RunTime:-5.238559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-5.240809s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.018839s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:5.435380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002900s ]
+INFO: [ view_parse ] --END-- [ RunTime:-5.238559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-5.240945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-09-12T22:41:03+08:00 ] 127.0.0.1 /index.php?s=/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001946s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `app_menu` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`title`,`url` FROM `app_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `app_menu` WHERE ( pid !=0 AND url like '%Article/index%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `app_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `app_menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0124s ]
+SQL: SELECT `id`,`url` FROM `app_menu` WHERE `pid` = 2 AND `hide` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `app_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `app_menu` WHERE `group` = '我的页面' AND `pid` = 2 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `app_menu` WHERE `group` = '首页页面' AND `pid` = 2 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `app_menu` WHERE `group` = '找工作' AND `pid` = 2 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `app_menu` WHERE `group` = '找简历' AND `pid` = 2 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_auth_group_access` [ RunTime:0.0195s ]
+SQL: SELECT `extend_id` FROM app_auth_group_access g INNER JOIN app_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `app_category` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `app_category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `app_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_document` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM app_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM app_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY `level` DESC,DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT `extend` FROM `app_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_attribute` [ RunTime:0.0174s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `app_attribute` WHERE `model_id` = 1  [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: groups E:\APP\resume_app_background\Application\Admin\Controller\ArticleController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-09-12T22:41:05+08:00 ] 127.0.0.1 /index.php?s=/Admin/article/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.1874s ]
+SQL: SELECT `id`,`companyname`,`creditcode`,`name`,`mobile`,`site`,`companyprofile` FROM `app_company`  [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: meta_title E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 5 行.
+NOTIC: [8] Undefined variable: show_draftbox E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 67 行.
+NOTIC: [8] Undefined variable: show_examine E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 68 行.
+NOTIC: [8] Undefined variable: nodes E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 71 行.
+NOTIC: [8] Undefined variable: show_recycle E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 105 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined variable: _page E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2018-09-12T22:41:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Article/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001536s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `app_auth_group_access` [ RunTime:0.0094s ]
+SQL: SELECT `extend_id` FROM app_auth_group_access g INNER JOIN app_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `app_category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_document` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `app_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_document_article` [ RunTime:0.0310s ]
+SQL: SELECT `id`,`parse`,`content`,`template`,`bookmark`,`name`,`companyname`,`creditcode`,`mobile`,`phone`,`companyprofile`,`picture` FROM `app_document_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.0082s ]
+SQL: SELECT `extend` FROM `app_model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `app_attribute` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `app_attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0005s ]
+SQL: SELECT `field_sort`,`attribute_list`,`attribute_alias` FROM `app_model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM `app_category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ adminArticleEdit ] --START--
+SQL: SHOW COLUMNS FROM `app_addons` [ RunTime:0.0095s ]
+SQL: SELECT `config` FROM `app_addons` WHERE `name` = 'EditorForAdmin' AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.057009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Addons\EditorForAdmin\EditorForAdminAddon [ RunTime:0.052727s ]
+INFO: [ adminArticleEdit ] --END-- [ RunTime:0.052774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2018-09-12T22:42:56+08:00 ] 127.0.0.1 /index.php?s=/Admin/Article/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002638s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `app_auth_group_access` [ RunTime:0.0200s ]
+SQL: SELECT `extend_id` FROM app_auth_group_access g INNER JOIN app_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_category` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `app_category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_document` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `app_document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_document_article` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`parse`,`content`,`template`,`bookmark`,`name`,`companyname`,`creditcode`,`mobile`,`phone`,`companyprofile`,`picture` FROM `app_document_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `app_model` [ RunTime:0.0087s ]
+SQL: SELECT `extend` FROM `app_model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `app_attribute` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `app_attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0005s ]
+SQL: SELECT `field_sort`,`attribute_list`,`attribute_alias` FROM `app_model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM `app_category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ adminArticleEdit ] --START--
+SQL: SHOW COLUMNS FROM `app_addons` [ RunTime:0.0084s ]
+SQL: SELECT `config` FROM `app_addons` WHERE `name` = 'EditorForAdmin' AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Addons\EditorForAdmin\EditorForAdminAddon [ RunTime:0.014749s ]
+INFO: [ adminArticleEdit ] --END-- [ RunTime:0.014784s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-09-12T22:48:13+08:00 ] 127.0.0.1 /index.php?s=/Admin/article/company.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `app_company` [ RunTime:0.0235s ]
+SQL: SELECT `id`,`companyname`,`creditcode`,`name`,`mobile`,`site`,`companyprofile` FROM `app_company`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: meta_title E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 5 行.
+NOTIC: [8] Undefined variable: show_draftbox E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 67 行.
+NOTIC: [8] Undefined variable: show_examine E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 68 行.
+NOTIC: [8] Undefined variable: nodes E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 71 行.
+NOTIC: [8] Undefined variable: show_recycle E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 105 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: category_id E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 181 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined index: status E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 182 行.
+NOTIC: [8] Undefined variable: _page E:\APP\resume_app_background\Runtime\Cache\Admin\6917488a1d714e02560bb35531311f99.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+

@@ -1,0 +1,220 @@
+<extend name="Public/base"/>
+
+<!-- 子导航 -->
+<block name="sidebar">
+    <include file="sidemenu"/>
+</block>
+
+<block name="body">
+    <script type="text/javascript" src="__STATIC__/uploadify/jquery.uploadify.min.js"></script>
+    <div class="main-title cf">
+        <h2>
+            编辑公司信息
+        </h2>
+    </div>
+    <!-- 标签页导航 -->
+    <div class="tab-wrap">
+        <ul class="tab-nav nav">
+            <volist name=":parse_config_attr($model['field_group'])" id="group">
+                <li data-tab="tab{$key}"<eq name="key" value="1">class="current"</eq>><a href="javascript:void(0);">{$group}</a></li>
+            </volist>
+        </ul>
+        <div class="tab-content">
+            <!-- 表单 -->
+            <form id="form" action="{:U('company_edit')}" method="post" class="form-horizontal">
+                <!-- 基础文档模型 -->
+                <input type="hidden" name="id" value="{$data['id']}">
+
+                <div class="form-item cf">
+                    <label class="item-label">公司名称</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="companyname" value="{$data['companyname']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">公司图片</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="picture" value="{$data['picture']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">信用代码</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="creditcode" value="{$data['creditcode']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">联系人</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="name" value="{$data['name']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">联系人手机</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="mobile" value="{$data['mobile']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">座机</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="phone" value="{$data['phone']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">公司地址</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="site" value="{$data['site']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">公司简介</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="companyprofile" value="{$data['companyprofile']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">superstar</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="superstar" value="{$data['superstar']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">jobinten</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="jobinten" value="{$data['jobinten']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">pay</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="pay" value="{$data['pay']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">jobtitle</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="jobtitle" value="{$data['jobtitle']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">jobfield</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="jobfield" value="{$data['jobfield']}">
+                    </div>
+                </div>
+                <div class="form-item cf">
+                    <label class="item-label">fulltime</label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="fulltime" value="{$data['fulltime']}">
+                    </div>
+                </div>
+
+                <div class="form-item cf">
+                    <button class="btn submit-btn   hidden"  type="submit">确 定</button>
+                    <a class="btn btn-return" href="">返 回</a>
+                    <if condition="C('OPEN_DRAFTBOX') and (ACTION_NAME eq 'add' or $data['status'] eq 3)">
+                        <button class="btn save-btn" url="{:U('article/autoSave')}" target-form="form-horizontal"id="autoSave">存草稿</button>
+                    </if>
+                    <input type="hidden" name="pid" value="{$data.pid|default=''}"/>
+                    <input type="hidden" name="model_id" value="{$data.model_id|default=''}"/>
+                    <input type="hidden" name="group_id" value="{$data.group_id|default=''}"/>
+                    <input type="hidden" name="category_id" value="{$data.category_id|default=''}">
+                </div>
+            </form>
+        </div>
+    </div>
+</block>
+
+<block name="script">
+    <link href="__STATIC__/datetimepicker/css/datetimepicker.css" rel="stylesheet" type="text/css">
+    <php>if(C('COLOR_STYLE')=='blue_color') echo '
+        <link href="__STATIC__/datetimepicker/css/datetimepicker_blue.css" rel="stylesheet" type="text/css">';
+    </php>
+    <link href="__STATIC__/datetimepicker/css/dropdown.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="__STATIC__/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"
+            charset="UTF-8"></script>
+    <script type="text/javascript">
+
+        Think.setValue("type", {$data.type |default= '""'});
+        Think.setValue("display", {$data.display |default= 0});
+
+        $('#submit').click(function () {
+            $('#form').submit();
+        });
+
+        $(function () {
+            $('.date').datetimepicker({
+                format: 'yyyy-mm-dd',
+                language: "zh-CN",
+                minView: 2,
+                autoclose: true
+            });
+            $('.time').datetimepicker({
+                format: 'yyyy-mm-dd hh:ii',
+                language: "zh-CN",
+                minView: 2,
+                autoclose: true
+            });
+            showTab();
+
+        <if condition = "C('OPEN_DRAFTBOX') and (ACTION_NAME eq 'add' or $data['status'] eq 3)" >
+            //保存草稿
+            var interval;
+            $('#autoSave').click(function () {
+                var target_form = $(this).attr('target-form');
+                var target = $(this).attr('url')
+                var form = $('.' + target_form);
+                var query = form.serialize();
+                var that = this;
+
+                $(that).addClass('disabled').attr('autocomplete', 'off').prop('disabled', true);
+                $.post(target, query).success(function (data) {
+                    if (data.status == 1) {
+                        updateAlert(data.info, 'alert-success');
+                        $('input[name=id]').val(data.data.id);
+                    } else {
+                        updateAlert(data.info);
+                    }
+                    setTimeout(function () {
+                        $('#top-alert').find('button').click();
+                        $(that).removeClass('disabled').prop('disabled', false);
+                    }, 1500);
+                })
+
+                //重新开始定时器
+                clearInterval(interval);
+                autoSaveDraft();
+                return false;
+            });
+
+            //Ctrl+S保存草稿
+            $('body').keydown(function (e) {
+                if (e.ctrlKey && e.which == 83) {
+                    $('#autoSave').click();
+                    return false;
+                }
+            });
+
+            //每隔一段时间保存草稿
+            function autoSaveDraft() {
+                interval = setInterval(function () {
+                    //只有基础信息填写了，才会触发
+                    var title = $('input[name=title]').val();
+                    var name = $('input[name=name]').val();
+                    var des = $('textarea[name=description]').val();
+                    if (title != '' || name != '' || des != '') {
+                        $('#autoSave').click();
+                    }
+                }, 1000 * parseInt({:C('DRAFT_AOTOSAVE_INTERVAL')}));
+            }
+
+            autoSaveDraft();
+
+        <
+            /if>
+
+        });
+    </script>
+</block>

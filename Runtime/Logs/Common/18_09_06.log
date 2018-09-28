@@ -1,0 +1,74 @@
+[ 2018-09-06T10:32:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001683s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002120s ]
+
+[ 2018-09-06T14:31:41+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002874s ]
+
+[ 2018-09-06T14:54:08+08:00 ] 127.0.0.1 /index.php?s=/index/idnex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T14:58:50+08:00 ] 127.0.0.1 /index.php?s=/index/idnex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001939s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T15:02:36+08:00 ] 127.0.0.1 /index.php?s=/index/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001952s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T15:10:19+08:00 ] 127.0.0.1 /index.php?s=/index/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002559s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003046s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T15:10:24+08:00 ] 127.0.0.1 /index.php?s=/index/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005063s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T15:15:02+08:00 ] 127.0.0.1 /index.php?s=/index/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002849s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003373s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T15:17:03+08:00 ] 127.0.0.1 /index.php?s=/index/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002882s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003324s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T15:19:39+08:00 ] 127.0.0.1 /index.php?s=/index/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002589s ]
+ERR: 无法加载模块:Index
+
+[ 2018-09-06T21:58:24+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002484s ]
+

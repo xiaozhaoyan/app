@@ -1,0 +1,6 @@
+[ 2018-09-07T15:22:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012817s ]
+

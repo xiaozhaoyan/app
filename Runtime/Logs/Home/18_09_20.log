@@ -1,0 +1,650 @@
+[ 2018-09-20T09:41:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.056827s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0401s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0120s ]
+
+[ 2018-09-20T09:41:43+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002380s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0122s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002553s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0121s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002536s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0122s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002541s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0098s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0122s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003421s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0102s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002348s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0098s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0094s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002986s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0141s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002508s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0122s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002830s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0105s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002375s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0166s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002504s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0118s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0103s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:44+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002520s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0117s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0111s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002684s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0087s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002529s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0094s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003911s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0096s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0215s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002355s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0113s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0093s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002605s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002542s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0113s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0204s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0124s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0094s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002990s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0264s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002380s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0261s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002376s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0097s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002534s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0108s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0139s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0207s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002521s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0215s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002504s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0164s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002626s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0117s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0261s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0109s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0278s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0117s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T09:41:51+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002751s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0088s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002611s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0094s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-20T09:41:52+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `app_config` [ RunTime:0.0096s ]
+SQL: SELECT `type`,`name`,`value` FROM `app_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-20T22:12:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:12:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:12:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+
+[ 2018-09-20T22:13:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'app'
+

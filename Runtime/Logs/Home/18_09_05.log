@@ -1,0 +1,757 @@
+[ 2018-09-05T16:53:37+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.030919s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002527s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0792s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0392s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137617',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0058s ]
+
+[ 2018-09-05T16:54:27+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0127s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0099s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137667',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: authcode E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 231 行.
+
+[ 2018-09-05T16:55:08+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001822s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0074s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137708',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: authcode E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 231 行.
+
+[ 2018-09-05T16:55:26+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001884s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0232s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0075s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137726',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-05T16:55:31+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001837s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0099s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0073s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137730',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-09-05T16:57:09+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0107s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0076s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137829',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T16:59:37+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002338s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0097s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0080s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536137977',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:00:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001789s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0122s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0086s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536138018',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: #code# E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:00:26+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0085s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0080s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536138026',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: code E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:00:37+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0107s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0071s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536138037',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: code E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:11:08+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0093s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0081s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536138668',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: code E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:12:00+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001752s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0084s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536138720',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: code E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:12:12+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001570s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0087s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0078s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536138732',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: code E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:12:47+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001842s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-09-05T17:19:33+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002761s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0126s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0092s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139173',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: code E:\APP\resume_app_background\Application\Home\Controller\HumanController.class.php 第 206 行.
+
+[ 2018-09-05T17:19:48+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0325s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0210s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139188',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0007s ]
+
+[ 2018-09-05T17:21:23+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0203s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0119s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139283',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:23:42+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0115s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0099s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139422',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:29:24+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0105s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139764',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-09-05T17:29:43+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001587s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0076s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139783',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:31:40+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002374s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0076s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139900',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:31:43+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001835s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0109s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0076s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139903',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:31:44+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001830s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0262s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0080s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139904',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:31:44+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001821s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0123s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0094s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536139904',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:33:49+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0230s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0110s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140029',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:33:52+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001932s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0082s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140032',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:33:52+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0232s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0081s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140032',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:34:16+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001778s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0103s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0081s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140056',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:34:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001847s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0103s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0097s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140058',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:34:30+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0099s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0078s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140070',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:34:45+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001694s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0095s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0082s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140085',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-09-05T17:35:04+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001728s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0102s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0078s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140104',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:35:07+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001941s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0106s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0084s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140107',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:46:31+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002419s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0079s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0076s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536140790',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-09-05T17:50:58+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002332s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0087s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141058',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-09-05T17:51:40+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0095s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0082s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141100',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:16+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141136',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0147s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141138',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:52:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001812s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0262s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0078s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141138',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:19+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001405s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0106s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0078s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141139',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:19+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001932s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0105s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141139',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0008s ]
+
+[ 2018-09-05T17:52:20+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001828s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0093s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141140',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:20+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0111s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0093s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141140',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:52:21+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001786s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0113s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0078s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141141',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:21+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001874s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0205s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0118s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141141',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:22+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001784s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0095s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0080s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141142',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0007s ]
+
+[ 2018-09-05T17:52:22+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002386s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0108s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0081s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141142',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:39+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001700s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0274s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0074s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141159',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:52:50+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001842s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0107s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0075s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141170',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:54:00+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0098s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0077s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141240',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:54:02+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001896s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0283s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141242',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:54:03+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001837s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0199s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0079s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141243',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:54:03+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001848s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0099s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0098s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141243',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0006s ]
+
+[ 2018-09-05T17:54:03+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001739s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0101s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0047s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141243',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0005s ]
+
+[ 2018-09-05T17:57:09+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0260s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0354s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141428',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0026s ]
+
+[ 2018-09-05T17:58:03+08:00 ] 127.0.0.1 /index.php?s=/home/human/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003771s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0203s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `psd_personal` [ RunTime:0.0171s ]
+SQL: UPDATE `psd_personal` SET `ctime`='1536141483',`mobile`='13277706152' WHERE `mobile` = '13277706152' [ RunTime:0.0013s ]
+SQL: SELECT * FROM `psd_personal` WHERE `mobile` = '13277706152' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-09-05T18:33:37+08:00 ] 127.0.0.1 /index.php?s=/home/index/Hot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0384s ]
+SQL: SELECT count(jobinten) num,`jobinten` FROM `psd_company` GROUP BY jobinten  [ RunTime:0.0972s ]
+

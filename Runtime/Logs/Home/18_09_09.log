@@ -1,0 +1,308 @@
+[ 2018-09-09T14:02:09+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.055932s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0987s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0035s ]
+
+[ 2018-09-09T14:02:11+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0095s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:02:12+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0214s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:02:12+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001803s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0096s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:04:07+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0104s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:04:07+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002556s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:04:19+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0112s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:04:26+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001857s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0119s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2018-09-09T14:04:27+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001943s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0115s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:06:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0109s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:06:27+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002820s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0113s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:06:33+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001638s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0125s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:06:33+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0166s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:06:52+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002547s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0128s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+
+[ 2018-09-09T14:07:11+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:16+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0187s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:07:17+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0116s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003685s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0125s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:07:18+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001966s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0106s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:19+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001829s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0102s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:19+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0111s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:19+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001904s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0117s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:07:20+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0161s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:07:20+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0116s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:20+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001859s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2018-09-09T14:07:21+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001899s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0117s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2018-09-09T14:07:22+08:00 ] 127.0.0.1 /index.php?s=/home/human/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001962s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0118s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+

@@ -1,0 +1,162 @@
+[ 2018-09-21T08:51:21+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0190s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `psd_resume` [ RunTime:0.0400s ]
+SQL: SELECT `jobinten` FROM `psd_resume` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2018-09-21T08:51:21+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0250s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `psd_notice` [ RunTime:0.0890s ]
+SQL: SELECT * FROM `psd_notice`  [ RunTime:0.0010s ]
+
+[ 2018-09-21T08:51:22+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0030s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0470s ]
+SQL: SELECT count(jobinten) num,`jobinten` FROM `psd_company` WHERE ( jobinten is not null ) GROUP BY jobinten ORDER BY `num` desc  [ RunTime:0.0150s ]
+
+[ 2018-09-21T08:51:22+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `psd_resume` [ RunTime:0.0140s ]
+SQL: SELECT `jobinten` FROM `psd_resume` WHERE `mobile` = '19987632390' LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0470s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `psd_company` WHERE `jobinten` = null LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2018-09-21T08:51:22+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `psd_notice` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `psd_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-21T08:51:22+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0000s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0100s ]
+SQL: SELECT count(jobinten) num,`jobinten` FROM `psd_company` WHERE ( jobinten is not null ) GROUP BY jobinten ORDER BY `num` desc  [ RunTime:0.0000s ]
+
+[ 2018-09-21T08:59:55+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_TOKEN E:\resume_app_background\resume_app_background\Application\Home\Controller\IndexController.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `psd_resume` [ RunTime:0.0040s ]
+SQL: SELECT `jobinten` FROM `psd_resume` WHERE `mobile` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-21T08:59:55+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0030s ]
+SQL: SELECT count(jobinten) num,`jobinten` FROM `psd_company` WHERE ( jobinten is not null ) GROUP BY jobinten ORDER BY `num` desc  [ RunTime:0.0030s ]
+
+[ 2018-09-21T08:59:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/hot&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0040s ]
+SQL: SELECT count(jobinten) num,`jobinten` FROM `psd_company` WHERE ( jobinten is not null ) GROUP BY jobinten ORDER BY `num` desc  [ RunTime:0.0060s ]
+
+[ 2018-09-21T08:59:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `psd_notice` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `psd_notice`  [ RunTime:0.0000s ]
+
+[ 2018-09-21T08:59:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/recommend&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `psd_resume` [ RunTime:0.0050s ]
+SQL: SELECT `jobinten` FROM `psd_resume` WHERE `mobile` = '19987632390' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `psd_company` [ RunTime:0.0040s ]
+SQL: SELECT `companyname`,`pay`,`jobinten`,`jobtitle`,`jobfield` FROM `psd_company` WHERE `jobinten` = null LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2018-09-21T08:59:56+08:00 ] 127.0.0.1 /index.php?s=/Home/index/picture&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `psd_config` [ RunTime:0.0040s ]
+SQL: SELECT `type`,`name`,`value` FROM `psd_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `psd_notice` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `psd_notice`  [ RunTime:0.0010s ]
+
